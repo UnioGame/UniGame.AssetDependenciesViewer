@@ -1,5 +1,7 @@
 # Asset Dependencies Viewer
 
+**Odin Inspector Asset recommended to usage with this Package (https://odininspector.com)**
+
 Unity Asset Dependencies Viewer
 
 thx for asset: https://github.com/orgs/UniGameTeam/people/HartMagic
