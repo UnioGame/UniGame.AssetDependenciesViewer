@@ -1,5 +1,6 @@
 {
     "name": "unigame.assetdependency.editor",
+    "rootNamespace": "",
     "references": [
         "GUID:2796129a6c23eb84a8181f62bf7332f1"
     ],
@@ -11,7 +12,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "ODIN_INSPECTOR"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }
