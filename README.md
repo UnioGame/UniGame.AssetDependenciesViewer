@@ -4,7 +4,7 @@
 
 Unity Asset Dependencies Viewer
 
-thx for asset: https://github.com/orgs/UniGameTeam/people/HartMagic
+thx for asset: https://github.com/HartMagic
 
 ## Usages
 
