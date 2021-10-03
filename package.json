@@ -4,11 +4,11 @@
   "displayName": "UniGame Asset Dependencies Viewer",
   "description": "Tools for Unity Addressables System",
   "unity": "2019.1",
-  "version": "2021.0.0",
+  "version": "2021.0.1",
   "keywords": [],
   "dependencies": {
-    "com.unigame.neuecc.unirx": "7.1.1",
+    "com.unigame.neuecc.unirx": "7.1.2",
     "com.unigame.neuecc.unitask": "2.2.5",
-    "com.unigame.unicore": "2021.1.7"
+    "com.unigame.unicore": "2021.1.8"
   }
 }
