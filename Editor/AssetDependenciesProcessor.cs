@@ -21,14 +21,12 @@
 
             try
             {
-                AssetDatabase.StartAssetEditing();
                 while (Actions.Count > 0)
                     Actions.Dequeue()?.Invoke();
             }
             finally
             {
                 Actions.Clear();
-                AssetDatabase.StopAssetEditing();
             }
         }
 
