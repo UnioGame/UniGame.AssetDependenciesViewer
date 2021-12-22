@@ -16,9 +16,19 @@
 
         private static void OnUpdate()
         {
-            while (Actions.Count > 0)
+            if (EditorApplication.isPlayingOrWillChangePlaymode)
+                return;
+
+            try
             {
-                Actions.Dequeue()?.Invoke();
+                AssetDatabase.StartAssetEditing();
+                while (Actions.Count > 0)
+                    Actions.Dequeue()?.Invoke();
+            }
+            finally
+            {
+                Actions.Clear();
+                AssetDatabase.StopAssetEditing();
             }
         }
 
