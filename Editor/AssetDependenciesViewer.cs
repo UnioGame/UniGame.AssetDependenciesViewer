@@ -110,6 +110,7 @@
             PathToAssetInfo.Clear();
         }
 
+        [MenuItem("UniGame/Tools/Rebuild Dependency Database")]
         public static void RebuildDatabase()
         {
             PathToAssetInfo.Clear();
