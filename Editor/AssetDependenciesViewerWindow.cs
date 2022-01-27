@@ -55,6 +55,11 @@ namespace UniModules.Tools.Editor
             {
                 FilteringWindow.ShowWindow();
             }
+            
+            if (GUILayout.Button("Rebuld Database", "ToolbarButton", GUILayout.Width(120)))
+            {
+                AssetDependenciesViewer.RebuildDatabase();
+            }
 
             _searchString = GUILayout.TextField(_searchString, GUI.skin.FindStyle("ToolbarSeachTextField"));
             
