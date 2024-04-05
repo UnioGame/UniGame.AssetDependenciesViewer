@@ -1,6 +1,6 @@
 {
   "name": "com.unigame.assetdependenciesviewer",
-  "author": "UniGameTeam",
+  "author": "UniGame",
   "displayName": "UniGame Asset Dependencies Viewer",
   "description": "Tools for Unity Addressables System",
   "unity": "2019.1",
