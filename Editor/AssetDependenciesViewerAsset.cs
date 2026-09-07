@@ -1,9 +1,9 @@
-﻿namespace UniModules.Tools.AssetDependenciesViewer.Editor
+namespace UniModules.Tools.AssetDependenciesViewer.Editor
 {
     using System;
     using System.Collections.Generic;
     using UniModules.Editor;
-    using UniModules.UniGame.Core.Editor.EditorProcessors;
+    using global::UniGame.Core.Editor;
     using UnityEditor;
     using UnityEngine;
 

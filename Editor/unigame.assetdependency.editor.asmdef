@@ -14,7 +14,8 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "ODIN_INSPECTOR"
+        "ODIN_INSPECTOR",
+        "UNIGAME_ASSET_DEPENDENCY_VIEWER_DISABLED"
     ],
     "versionDefines": [],
     "noEngineReferences": false
